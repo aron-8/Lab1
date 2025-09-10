@@ -31,8 +31,20 @@ int main()
  scanf("%d", &b);
  int o = a+b;
  int s = a*b;
- printf("sum:%d and product:%d", o, s);
-    */
+ printf("összeg:%d és szorzat:%d", o, s);
 
-    return 0;
+    */
+  // Money
+  int sum;
+  int c;
+  for (int i = 50; i <= 200; i = i)
+  {
+    printf("How many %dFt?", i);
+    scanf("%d", &c);
+    sum = sum + i * c;
+    i = i * 2;
+  }
+  printf("You has %d Ft!", sum);
+
+  return 0;
 }
